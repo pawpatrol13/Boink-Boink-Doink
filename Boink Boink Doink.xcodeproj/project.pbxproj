@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D98C48AA288B8E0E0082625B /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98C48A9288B8E0E0082625B /* EmojiView.swift */; };
+		D98C48AF288B966F0082625B /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = D98C48AE288B966F0082625B /* Subsonic */; };
+		D98C48B1288B99680082625B /* yj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D98C48B0288B99680082625B /* yj.m4a */; };
+		D98C48B6288B9F210082625B /* rick.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D98C48B5288B9F190082625B /* rick.m4a */; };
 		D99ADADD288B8381003783CE /* Boink_Boink_DoinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ADADC288B8381003783CE /* Boink_Boink_DoinkApp.swift */; };
 		D99ADADF288B8381003783CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ADADE288B8381003783CE /* ContentView.swift */; };
 		D99ADAE1288B8383003783CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99ADAE0288B8383003783CE /* Assets.xcassets */; };
 		D99ADAE4288B8383003783CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99ADAE3288B8383003783CE /* Preview Assets.xcassets */; };
+		D99ADAEB288B87FC003783CE /* EmojisBouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ADAEA288B87FC003783CE /* EmojisBouncyView.swift */; };
+		D99ADAED288B8A93003783CE /* collision surface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ADAEC288B8A93003783CE /* collision surface.swift */; };
+		D99ADAEF288B8BAD003783CE /* BouncyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ADAEE288B8BAD003783CE /* BouncyView.swift */; };
+		D99ADAF1288B8C4B003783CE /* EmojiSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99ADAF0288B8C4B003783CE /* EmojiSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D98C48A9288B8E0E0082625B /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		D98C48B0288B99680082625B /* yj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yj.m4a; sourceTree = "<group>"; };
+		D98C48B5288B9F190082625B /* rick.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rick.m4a; sourceTree = "<group>"; };
 		D99ADAD9288B8381003783CE /* Boink Boink Doink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boink Boink Doink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99ADADC288B8381003783CE /* Boink_Boink_DoinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boink_Boink_DoinkApp.swift; sourceTree = "<group>"; };
 		D99ADADE288B8381003783CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D99ADAE0288B8383003783CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99ADAE3288B8383003783CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D99ADAEA288B87FC003783CE /* EmojisBouncyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojisBouncyView.swift; sourceTree = "<group>"; };
+		D99ADAEC288B8A93003783CE /* collision surface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "collision surface.swift"; sourceTree = "<group>"; };
+		D99ADAEE288B8BAD003783CE /* BouncyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyView.swift; sourceTree = "<group>"; };
+		D99ADAF0288B8C4B003783CE /* EmojiSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98C48AF288B966F0082625B /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +69,13 @@
 			children = (
 				D99ADADC288B8381003783CE /* Boink_Boink_DoinkApp.swift */,
 				D99ADADE288B8381003783CE /* ContentView.swift */,
+				D98C48A9288B8E0E0082625B /* EmojiView.swift */,
+				D99ADAEA288B87FC003783CE /* EmojisBouncyView.swift */,
+				D99ADAEE288B8BAD003783CE /* BouncyView.swift */,
+				D99ADAEC288B8A93003783CE /* collision surface.swift */,
+				D99ADAF0288B8C4B003783CE /* EmojiSet.swift */,
+				D98C48B0288B99680082625B /* yj.m4a */,
+				D98C48B5288B9F190082625B /* rick.m4a */,
 				D99ADAE0288B8383003783CE /* Assets.xcassets */,
 				D99ADAE2288B8383003783CE /* Preview Content */,
 			);
@@ -83,6 +106,9 @@
 			dependencies = (
 			);
 			name = "Boink Boink Doink";
+			packageProductDependencies = (
+				D98C48AE288B966F0082625B /* Subsonic */,
+			);
 			productName = "Boink Boink Doink";
 			productReference = D99ADAD9288B8381003783CE /* Boink Boink Doink.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +137,9 @@
 				Base,
 			);
 			mainGroup = D99ADAD0288B8381003783CE;
+			packageReferences = (
+				D98C48AD288B966F0082625B /* XCRemoteSwiftPackageReference "subsonic" */,
+			);
 			productRefGroup = D99ADADA288B8381003783CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99ADAE4288B8383003783CE /* Preview Assets.xcassets in Resources */,
+				D98C48B1288B99680082625B /* yj.m4a in Resources */,
 				D99ADAE1288B8383003783CE /* Assets.xcassets in Resources */,
+				D98C48B6288B9F210082625B /* rick.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99ADADF288B8381003783CE /* ContentView.swift in Sources */,
+				D99ADAEB288B87FC003783CE /* EmojisBouncyView.swift in Sources */,
 				D99ADADD288B8381003783CE /* Boink_Boink_DoinkApp.swift in Sources */,
+				D98C48AA288B8E0E0082625B /* EmojiView.swift in Sources */,
+				D99ADAF1288B8C4B003783CE /* EmojiSet.swift in Sources */,
+				D99ADAEF288B8BAD003783CE /* BouncyView.swift in Sources */,
+				D99ADAED288B8A93003783CE /* collision surface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +373,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D98C48AD288B966F0082625B /* XCRemoteSwiftPackageReference "subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D98C48AE288B966F0082625B /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D98C48AD288B966F0082625B /* XCRemoteSwiftPackageReference "subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D99ADAD1288B8381003783CE /* Project object */;
 }
